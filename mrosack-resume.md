@@ -92,4 +92,4 @@ A Windows Azure based application that allows companies to analyze the usage of 
 
 ### ACTIVITIES AND INTERESTS
 
-Electric vehicles, 3D printing, golf, MythTV, fantasy sports, traveling and good food!
+Electric vehicles, 3D printing, golf, bowling, fantasy sports, traveling and good food!
