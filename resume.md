@@ -19,7 +19,7 @@ Experienced Solutions Architect with a proven track record of creating scalable,
 
 ### QUALIFICATIONS
 
-20 years of experience in the software development industry. Fluent in many languages and operating systems, and able to learn new ones quickly.
+20 years of experience in the software development industry. Fluent in many languages, frameworks and clouds, and able to learn new ones quickly.
 
 - Deep experience with all types of Javascript development, from Angular/React front-end dev to GraphQL and other server-side Node technologies. Well versed in .NET development in a former life, also very familiar with the Java and Unix worlds.
 - Enthusiastic about designing systems - building object models, data stores and user interfaces to create intuitive, scalable solutions.
@@ -46,19 +46,15 @@ Developed various line of business apps to digitize manual processes.
 
 #### Play Your Damn Turn
 
-Asynchronous multiplayer (Play by Email) turn broker for Civilization 6. Allows users to play games of Civilization 6 at a relaxed pace without all players having to be online at the same time. <a href="https://www.playyourdamnturn.com">https://www.playyourdamnturn.com</a>
+Asynchronous multiplayer (Play by Email) turn broker for Civilization 6. Allows users to play games of Civilization 6 at a relaxed pace without all players having to be online at the same time. <a href="https://www.playyourdamnturn.com">https://www.playyourdamnturn.com</a>, source code at <a href="https://github.com/pydt">https://github.com/pydt</a>.
 
-- Backend built using the Serverless Framework and deployed to AWS Lambda, making it both highly scalable and cheap to run.
-- Angular UI for both the website and a client desktop application that assists with uploading/downloading turn files.
-- Electron client application allowing cross-platform deploys to Windows, OS X and Linux.
+PYDT is a full-stack Javascript application deployed to AWS and running entirely in Lambda using the Serverless framework. The API uses the <a href="https://github.com/lukeautry/tsoa">tsoa framework</a> to help create OpenAPI documentation and help with dependency injection. Data is stored in DynamoDB and S3, and all the usual AWS suspects are used to tie the room together. The web UI and client application are built with Angular, and the client is packaged with Electron allowing cross-platform deploys to Windows, OS X and Linux.
 
 #### Volt Stats
 
 Online statistics tracking for Chevrolet plug-in vehicles like the Volt and Bolt. <a href="http://www.voltstats.net">http://www.voltstats.net</a>
 
-- Backend system interfaces with the Onstar partner API to pull data from registered users’ vehicles twice daily.
-- Data is aggregated and analyzed, allowing users to track their fuel efficiency, earn achievements for meeting driving milestones, and compete with other users for bragging rights!
-- ASP.NET MVC website with heavy usage of jqPlot and d3.js for data visualization and DataTables for dynamic grids.
+Volt Stats stopped updating data in 2021, but while it was active it interfaced with the Onstar partner API to pull data from registered users’ vehicles twice daily. Data was aggregated and analyzed, allowing users to track their fuel efficiency, earn achievements for meeting driving milestones, and compete with other users for bragging rights! The data was displayed on an ASP.NET MVC website with heavy usage of jqPlot and d3.js for data visualization and DataTables for dynamic grids.
 
 ### PROJECT WORK through OMNI RESOURCES <span style="font-weight:normal;">- Appleton, WI - 2011 to 2017</span>
 
@@ -96,4 +92,4 @@ A Windows Azure based application that allows companies to analyze the usage of 
 
 ### ACTIVITIES AND INTERESTS
 
-Electric vehicles, 3D printing, golf, MythTV, fantasy sports, traveling and good food!
+Electric vehicles, 3D printing, golf, bowling, fantasy sports, traveling and good food!
